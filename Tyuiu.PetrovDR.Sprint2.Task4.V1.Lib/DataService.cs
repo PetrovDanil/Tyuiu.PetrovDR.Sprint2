@@ -8,7 +8,7 @@ namespace Tyuiu.PetrovDR.Sprint2.Task4.V1.Lib
         {
             double z = x < y ? (x + 3) / y : (x + 1) / (x - 2);
 
-            return z;
+            return Math.Round(z, 3);
         }
     }
 }
